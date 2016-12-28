@@ -1,0 +1,119 @@
+.articlelisting{
+	position: relative;
+	height: 40px;
+	margin: 5px;
+}
+
+.upvote{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 22px;
+	cursor: pointer;
+	border: 2px solid black;	
+}
+
+.downvote{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 22px;
+	cursor: pointer;
+	border: 2px solid black;
+	
+}
+
+.listingtitle{
+	position: absolute;
+	height: auto;
+	width: auto;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 30px;
+	border: 1px solid black;
+	background-color: white;
+
+}
+
+.votebox{
+
+	position: absolute;
+	height: auto;
+	width: 40px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	border-right: 2px solid black;
+	background-color: grey;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.articlelink{
+
+	cursor: pointer;	
+
+}
+
+.listingtitle-sub{
+	position: absolute;
+	width: auto;
+	left: 42px;
+	right: 0px;
+	height: 40%;
+	bottom: 0px;
+	padding: 2px;
+
+}
+
+.title{
+
+	position: absolute;
+	width: auto;
+	height: 60%;
+	left: 0px;
+	top: 5px;
+	right: 0px;
+	overflow: hidden;
+	text-align: left;
+	font-size: 17px;
+	padding-left: 47px;
+
+}
+
+.keywords{
+
+	float: left;
+	width: 50%;
+	left: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	text-align: left;
+	padding-left: 5px;
+	font-size: 10px;
+	color: grey;
+
+}
+
+.category{
+
+	float: right;
+	overflow: hidden;
+	padding-left: 20px;
+	color: grey;
+	font-size: 10px;
+
+}
+
+.createdBy{
+	float: right;
+	overflow: hidden;
+}
+
+.lastUpdate{
+	float: right;
+	overflow: hidden;
+}

@@ -1,0 +1,208 @@
+body{
+
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('../images/background.png');
+}
+
+a{
+
+	text-decoration: none;
+
+}
+
+a:visited{
+
+	color: black;
+
+}
+
+#header{
+
+	position:absolute;
+	width: auto;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 50px;
+	
+
+}
+
+#main{
+
+	position: absolute;
+	left: 0px;
+	right: 200px;
+	top: 51px;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background-color: white;
+
+}
+
+#sidepane-right{
+
+	position: absolute;
+	right: 0px;
+	width: 200px;
+	top: 51px;
+	min-height: 100%;
+
+}
+
+#hidden{
+
+	border: none;
+	width: 100%;
+	height:200px;
+	background-color: grey;
+	display: none;	
+
+}
+
+
+html, body {
+	max-width: 100%;
+}
+
+#sidepane-right ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-left: -30px;
+}
+
+#sidepane-right li {
+	display: block;
+	border: 2px solid black;
+	margin-bottom: 5px;
+	text-align: center;	
+	background-color: white;
+}
+
+#window-cover {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+	background-color: grey;
+	z-index: 100;
+	display:none;
+
+}
+
+#loginbox {
+
+	position: fixed;
+	margin-left:auto;
+	margin-right:auto;
+	height: 200px;
+	width: 200px;
+	z-index: 101;
+	background-color: white;
+	padding: 10px;
+	display: none;
+
+}
+
+#contextbox {
+
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	height: 170px;
+	width: 176px;
+	
+
+}
+
+#keywordbox {
+
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 170px;
+	width: 176px;
+	color: blue;				
+
+}
+
+#keywordbox-inner{
+
+	padding: 5px;
+
+}
+
+#box-buttons{
+	position: absolute;
+	height: 80px;
+	left: 0px;
+	right: 0px;
+	width: auto;
+	border: 1px solid red;
+
+}
+
+#upvotes {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 40px;
+
+}
+
+#box-name{
+
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	right: 0px;
+	width: auto;
+	padding-left: 5px;
+	overflow-hidden;
+	
+}
+
+#box-comments{
+
+	position: absolute;
+	height: 20px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: auto;
+	padding-left: 5px;
+	
+
+}
+
+#box-votes{
+	position: absolute;
+	top: 80px;
+	height: 50px;
+	left: 0px;
+	right: 0px;
+	width: auto;
+	
+}
+
+#totalvotes{
+	position: absolute;
+	font-size: 25px;
+	width: 100%;
+	padding-left: 5px;
+}
+
+#percentagevotes{
+
+	position: absolute;
+	top: 26px;
+	width: 100%;
+	padding-left: 5px;
+	color: grey;
+
+}
